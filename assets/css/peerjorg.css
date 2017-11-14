@@ -134,6 +134,41 @@ body > .container {
     font-weight: 300;
 }
 
+/*Get Involved*/
+.activity-summary {
+    background: #efefef;
+    padding: 23px 33px 30px 32px;
+    margin-bottom: 30px;
+    display: block;
+    text-decoration: none !important;
+}
+
+.activity-summary p {
+    font-weight: 400;
+    color: #6e6e6e;
+    margin: 0;
+}
+
+a.offline-share:hover {
+    background: #8e44ad;
+}
+
+a.activity-summary:hover .title,
+a.activity-summary:hover p {
+    color: #fff !important;
+}
+
+.offline-share .title, .offline-share-title {
+    color: #8e44ad;
+}
+
+h3.title {
+    margin: 0 0 11px;
+    color: #484848;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 26px;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
