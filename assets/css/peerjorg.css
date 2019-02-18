@@ -35,7 +35,7 @@ body > .container {
 
 .card {
     float: left;
-    width: 33.333%;
+    width: 12.5%;
     padding: .75rem;
     margin-bottom: 2rem;
     border: 0;
@@ -47,6 +47,7 @@ body > .container {
 
 .card-text {
     font-size: 85%;
+    margin-top: 7%;
 }
 
 /* CUSTOMIZE THE CAROUSEL
@@ -56,16 +57,16 @@ body > .container {
 .carousel {
     margin-bottom: 4rem;
 }
+
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
     bottom: 3rem;
     z-index: 10;
 }
 
-.carousel-caption h1,
-.carousel-caption p {
+.carousel-caption h1, .carousel-caption p {
     background: rgba(33, 150, 243, 0.89);
-    padding: 10px;
+    padding: 10px 16px;
 }
 
 /* Declare heights because of positioning of img element */
